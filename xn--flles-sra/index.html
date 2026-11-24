@@ -1,26 +1,24 @@
-<!DOCTYPE html>
-<html lang="da"> 
-  <head>
-    <meta name=viewport content="width=device-width, initial-scale=1">
-    <title>Fælles Ønsker</title>
-    <meta charset="utf-8"/>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-    <script type="text/javascript" src="../localFunctions.js"></script>
-
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="print-style.css" media="print">
-    
-    <script type="text/javascript">
-
-      $(document).ready(function(){
-        getPage("https://docs.google.com/document/d/e/2PACX-1vQBTeZP18oez_MX9g6o9luIANlMudWXoIH2Qxi6qwMMf6BVU1YzOQJ0LVOy_wOUr-bjidZxShCeNks_/pub?embedded=true");     
-      });
-    </script>
-    
-  </head>
-  <body> 
-    <div id="body">
-      <h1>Fælles Ønsker</h1>
-    </div>    
-  </body> 
+<!doctype html>
+<html lang="da">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fælles ønsker</title>
+  <link rel="stylesheet" href="../assets/css/main.css?v=8">
+  <script src="../assets/js/doc-loader.js?v=2" defer></script>
+</head>
+<body data-doc="https://docs.google.com/document/d/e/2PACX-1vQBTeZP18oez_MX9g6o9luIANlMudWXoIH2Qxi6qwMMf6BVU1YzOQJ0LVOy_wOUr-bjidZxShCeNks_/pub?embedded=true">
+  <header class="list-header">
+    <div class="list-heading">
+      <a href="../"><span aria-hidden="true">←</span> Forside</a>
+      <h1>Fælles ønsker</h1>
+    </div>
+  </header>
+  <main class="shell list-content">
+    <p id="doc-status" role="status"></p>
+    <noscript><p>Slå JavaScript til for at se ønskerne her.</p></noscript>
+    <div id="wishes"></div>
+    <p id="last-edit" class="last-edit" hidden></p>
+  </main>
+</body>
 </html>
