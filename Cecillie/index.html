@@ -1,25 +1,27 @@
-<!DOCTYPE html>
-<html lang="da"> 
-  <head>
-    <meta name=viewport content="width=device-width, initial-scale=1">
-    <title>Cecillies Ønsker</title>
-    <meta charset="utf-8"/>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-    <script type="text/javascript" src="../localFunctions.js"></script>
-
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="print-style.css" media="print">
-
-    <script type="text/javascript">
-
-      $(document).ready(function(){
-        getPage("https://docs.google.com/document/d/e/2PACX-1vRD3MSy2ruJ31my_oCQ4xoe8lYtXBoEJ-qFC-VbVzjwHClLiYE6WOeD2_O14CpoBy8U1fO3-N-upPSW/pub?embedded=true");     
-      });
-    </script>
-  </head>
-  <body> 
-    <div id="body">
-      <h1>Cecillies Ønsker</h1>
+<!doctype html>
+<html lang="da">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cecillies ønsker</title>
+  <link rel="stylesheet" href="../assets/css/main.css?v=6">
+</head>
+<body class="embedded-wishlist">
+  <header class="list-header">
+    <div class="list-heading">
+      <a href="../"><span aria-hidden="true">←</span> Forside</a>
+      <h1>Cecillies ønsker</h1>
+      <a href="https://onskeskyen.dk/da/wishlists/BqHVXMJ7kfa0jnHQ?sharedBy=9gfK2RbzzE3G78iB">Åbn på Ønskeskyen</a>
     </div>
-  </body> 
+  </header>
+  <main class="embedded-content">
+    <iframe
+      class="wishlist-embed"
+      title="Cecillies ønskeliste på Ønskeskyen"
+      src="https://onskeskyen.dk/da/wishlists/BqHVXMJ7kfa0jnHQ?sharedBy=9gfK2RbzzE3G78iB"
+      referrerpolicy="no-referrer"
+      sandbox="allow-scripts allow-same-origin allow-forms allow-popups"
+    ></iframe>
+  </main>
+</body>
 </html>
